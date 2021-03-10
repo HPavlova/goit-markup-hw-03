@@ -147,6 +147,7 @@ section {
 
 .navigation-link {
   padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -275,13 +276,12 @@ section {
 
 .section-team {
   background-color: var(--secondary-font-color);
-  padding-bottom: 0;
+  padding-bottom: var(--section-pb);
 }
 
 .team-list {
   display: flex;
   align-items: center;
-  padding-bottom: var(--section-pb);
 }
 
 .team-list .team-item + .team-item {
@@ -418,7 +418,9 @@ section {
   padding-right: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .project-title {
